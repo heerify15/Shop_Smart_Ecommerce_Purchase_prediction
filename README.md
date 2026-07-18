@@ -15,7 +15,6 @@ Develop a Decision Tree Classification model capable of predicting customer purc
 ## 🚀 Project Workflow
 
 - Data Loading & Exploration
-- Exploratory Data Analysis (EDA)
 - Data Cleaning & Preprocessing
 - Feature Engineering
 - Handling Boolean Features
@@ -23,7 +22,7 @@ Develop a Decision Tree Classification model capable of predicting customer purc
 - Encoding Categorical Features using `OneHotEncoder`
 - Building a preprocessing pipeline using `ColumnTransformer`
 - Training a Decision Tree Classifier
-- Cost Complexity Pruning
+- Pre-Pruning
 - Hyperparameter Tuning using `GridSearchCV`
 - Model Evaluation
 
@@ -52,43 +51,38 @@ Evaluation metrics include:
 - Recall
 - F1 Score
 - Confusion Matrix
-- Classification Report
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-ShopSmart-Ecommerce-Purchase-Prediction/
+Shop_Smart_Ecommerce_Purchase_Prediction/
 │
 ├── Dataset/
-│   └── shop_smart_ecommerce.csv
+│   └── problem_statement.txt
+│   ├── shop_smart_ecommerce.csv
+│   ├── dataset_description
 │
 ├── Notebook/
-│   └── ShopSmart_Ecommerce_Purchase_Prediction.ipynb
+│   └── shopsmart_ecommerce.ipynb
 │
 ├── Output/
-│   ├── EDA Visualizations
-│   ├── Confusion Matrix
-│   ├── Decision Tree
-│   ├── Feature Importance
-│   └── Model Evaluation Results
+│   ├── pipeline.jpg
+│   ├── confusion_matrix.jpg
+│   ├── evaluation_metric.jpg
 │
-├── Dataset Description.pdf
-├── Problem Statement.pdf
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 ---
 
 ## 📌 Key Learning Outcomes
 
-- Performed comprehensive Exploratory Data Analysis (EDA)
 - Built an end-to-end preprocessing pipeline
 - Applied feature scaling and categorical encoding
 - Trained and optimized a Decision Tree Classifier
-- Improved model performance using Cost Complexity Pruning
+- Improved model performance using Pre-Pruning
 - Tuned hyperparameters using GridSearchCV
 - Evaluated the model using appropriate classification metrics for imbalanced data
 
