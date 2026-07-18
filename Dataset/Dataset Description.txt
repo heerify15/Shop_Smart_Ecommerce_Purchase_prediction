@@ -1,0 +1,35 @@
+        Feature                                                     Description
+
+1.  Administrative-----------------------------Number of pages visited related to account management(login,profile,etc.)
+
+2.  Administrative_Duration--------------------Total time(inseconds) spent on administrative pages
+
+3.  Informational------------------------------Number of informational  pagesvisited(FAQ,policies,etc.)
+
+4.  Informational_Duration---------------------Total time(inseconds) spent  oninformational pages
+
+5.  ProductRelated-----------------------------Number of product-related pages visited
+
+6.  ProductRelated_Duration--------------------Total time(inseconds) spent on product-related pages
+
+7.  BounceRates--------------------------------Percentage of visitors who leave the site after viewing one page
+
+8.  ExitRates----------------------------------Percentage of exits from a page
+
+9.  PageValues---------------------------------Average value of pages visited before completing a transaction
+
+10. SpecialDay---------------------------------Closeness of the visit date to a special day(e.g.,ValentineʼsDay,MotherʼsDay)MonthMonthofthevisit(Feb,Mar,May,etc.)
+
+11. OperatingSystems---------------------------Operating system used by the visitor(encoded)
+
+12. Browser------------------------------------Browser used by the visitor(encoded)
+
+13. Region-------------------------------------Geographic region of the visitor(encoded)
+
+14. TrafficType--------------------------------Source of traffic(e.g.,direct,referral,ads)
+
+15. VisitorType--------------------------------Type of visitor(Returning_Visitor, New_Visitor, Other)
+
+16. Weekend------------------------------------Whether the visit occurred on a weekend
+
+17. Revenue------------------------------------Target variable- whether the visitor made a purchase
